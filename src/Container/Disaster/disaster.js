@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import './disaster.css'
 
 
 class Disaster extends Component {

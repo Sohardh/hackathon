@@ -43,13 +43,10 @@ class Posts extends Component {
         for(let inputIdentifier in this.state.orderForm) {
             formElement[inputIdentifier] = this.state.orderForm[inputIdentifier].value
         }
-        const order= {
-            
-            orderData:formElement
-        }
         
         
-        axios.post('/orders.json',order) 
+        
+        axios.post('/orders.json',formElement) 
             .then(response=>console.log(response))      
     }
 
