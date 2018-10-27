@@ -16,7 +16,9 @@ class Orders extends Component {
 					...res.data[key],
 					id:key
 				});
+				fetchedOrders.reverse();
 			}
+
 			this.setState({orders:fetchedOrders})
 		})
 	}

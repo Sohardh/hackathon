@@ -35,3 +35,11 @@
   font-size: 50px;
   background-color: #ccdfff
 }
+.clock{
+z-index: 500;
+margin-top: -10%;
+}
+.dis{
+  float: left;
+  z-index: 500;
+}

@@ -28,13 +28,18 @@ closeApp = () => {
         {background}
         <Posts/>
         <Top10/>
-
-        <ReactCountdownClock seconds={5}
-                     color="#000"
+    
+  
+    
+        
+<div className="clock">  <ReactCountdownClock seconds={100}
+                     color="#ba0b25"
                      alpha={0.9}
                      size={150}
                      onComplete={this.closeApp}
-                      />
+                     
+                      /></div>
+       
 
 
 
