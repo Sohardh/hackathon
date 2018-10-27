@@ -5,7 +5,7 @@ import Home from './Container/Home/home';
 import Posts from './Container/Posts/posts';
 import Orders from './Container/Timeline/Timeline'
 import Disaster from './Container/Disaster/disaster';
-import top10 from './Container/top10/top10'
+import Top10 from './Container/top10/top10';
 
 
 class App extends Component {
@@ -14,8 +14,9 @@ class App extends Component {
       <div className="App">
         <h1 className="ace">AceBook</h1>
         <Posts/>
-        <top10/>
-        <Disaster/>
+        <Top10/>
+    
+       
         <Orders/>
 
       </div>

@@ -1,0 +1,14 @@
+a{
+    text-decoration: none;text-align: end;
+    color: black;
+}
+a:hover{
+    color:red;
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+li{
+    text-decoration: none;text-align: center;
+}

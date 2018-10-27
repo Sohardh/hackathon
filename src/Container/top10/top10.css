@@ -1,0 +1,8 @@
+.top{
+    float: right;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 10px auto;
+}
+h1{
+    font-size: 3em;
+}
