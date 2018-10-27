@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
 import Post from '../Posts/posts'
+import './home.css';
 
 class Home extends Component{
     render(){
         return(
             <div className="home">
-            <Post />
+            <h1>AceBook</h1>dsgdsfgdsgd
+            <Post className="posts" />
             </div>
         )
     }

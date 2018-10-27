@@ -8,10 +8,10 @@ class Posts extends Component {
     state= {
         orderForm:{
         name:{
-            elementType: 'input',
+            elementType: 'textarea',
             elementConfig: {
                 type:'text',
-                placeholder: 'Your Name'
+                placeholder: 'What is on your result card!'
             },
             value:'',
             validation: {
@@ -98,13 +98,13 @@ class Posts extends Component {
                     touched={input.config.touched}
                     value={input.config.value} />)
             })}
-            <Button btnType="Success" clicked={this.orderHandler} disabled={!this.state.formIsValid} >Order</Button>
+            <Button btnType="Success" clicked={this.orderHandler} disabled={!this.state.formIsValid} >Add New Post</Button>
             </form>
             )
     
         return(
-            <div className={classes.ContactData}>
-            <h4>Enter Your contact data</h4>
+            <div className="posts">
+            <h3 className="heading">To Get Straight A's !</h3>
             {form}
             
             </div>
