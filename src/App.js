@@ -10,6 +10,7 @@ import ReactCountdownClock from 'react-countdown-clock'
 import Modal from './Component/UI/Modal/Modal'
 import ToDo from './Container/ToDo/ToDo';
 
+
 class App extends Component {
 state={
 	open:true
@@ -25,20 +26,23 @@ closeApp = () => {
   	}
     return (
       <div className="App">
-        <h1 className="ace">AceBook</h1>
+      <div className="header" >
+      <h1 className="ace">AceBook</h1>
         {background}
         <Posts/>
-        <Top10/>        
+      </div>
+        
+       <Top10/>
 <div className="clock">  <ReactCountdownClock seconds={100}
-                     color="#ba0b25"
+                     color="black"
                      alpha={0.9}
                      size={150}
                      onComplete={this.closeApp}
                      
                       /></div>
-                         <ToDo/>
-       
-
+                    
+                    <div className="todo" > <ToDo/></div>    
+                    <div className="dis" ><Disaster/></div> 
 
 
     

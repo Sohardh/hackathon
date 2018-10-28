@@ -42,4 +42,11 @@ margin-top: -10%;
 .dis{
   float: left;
   z-index: 500;
+  width: 20%;
+  margin-left: 10%;
+}
+
+.todo{
+  margin-left:-60%; 
+  z-index: 700;
 }

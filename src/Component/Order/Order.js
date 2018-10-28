@@ -10,7 +10,9 @@ const order = (props) => {
 	
 	return(
 		<div className="order">
+		<h4><strong>Username</strong></h4>
 		<p> {ingredientOutput}</p>
+		<h4><strong style={{float:"left",bottom:"0px",color:'blue'}}>Like</strong></h4>
 		
 		</div>)
 

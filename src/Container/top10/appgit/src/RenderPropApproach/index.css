@@ -7,8 +7,8 @@ a:hover{
 }
 ul{
     text-decoration: none;
-    list-style-type: none;
+    list-style-type: bullets;
 }
 li{
-    text-decoration: none;text-align: center;
+    text-decoration: none;text-align: left;
 }

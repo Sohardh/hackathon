@@ -5,10 +5,14 @@
   "dependencies": {
     "@huchenme/github-trending": "^1.3.1",
     "axios": "^0.18.0",
+    "fb-react-sdk": "^1.0.4",
+    "firebase": "^5.5.6",
     "react": "^16.6.0",
     "react-countdown-clock": "^2.5.0",
     "react-dom": "^16.6.0",
     "react-redux": "^5.1.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.0.5",
     "redux": "^4.0.1",
     "trending-github": "^1.1.0"
