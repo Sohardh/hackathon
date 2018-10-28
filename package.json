@@ -8,7 +8,9 @@
     "react": "^16.6.0",
     "react-countdown-clock": "^2.5.0",
     "react-dom": "^16.6.0",
+    "react-redux": "^5.1.0",
     "react-scripts": "2.0.5",
+    "redux": "^4.0.1",
     "trending-github": "^1.1.0"
   },
   "scripts": {
